@@ -4,6 +4,8 @@ import LandingPage from './components/LandingPage'
 import Marquee from './components/Marquee'
 import About from './components/About'
 import Eyes from './components/eyes'
+import { Services } from './components/Services'
+import Products from './components/Products'
 
 const App = () => {
   return (
@@ -13,6 +15,8 @@ const App = () => {
       <Marquee/>
       <About/>
       <Eyes/>
+      <Services/>
+      <Products/>
     </div>
   )
 }
