@@ -2,7 +2,7 @@ import React from 'react'
 
 const Products = () => {
   return (
-    <div className='w-full h-screen bg-zinc-900  px-20 flex flex-col'>
+    <div data-scroll data-scroll-section data-scroll-speed="-.2" className='rounded-b-xl w-full h-screen bg-zinc-900  px-20 flex flex-col'>
     <div className="w-full pb-18">
         <h1 className="text-5xl neue-montreal tracking-tight">Our Products</h1>
         

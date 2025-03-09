@@ -3,7 +3,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='w-full py-15 bg-[#CDEA68] rounded-t-3xl text-black'>
+    <div data-scroll data-scroll-section data-scroll-speed="-.1" className='w-full py-15 bg-[#CDEA68] rounded-t-3xl text-black'>
         <h1 className='neue-montreal text-[3.9vw] px-20 py-12 leading-[5vw] tracking-tight'>One-stop Destination for all internet solutions</h1>
 {/* <AboutShowCases/> */}
 <div className='w-full flex gap-5  border-t-[1px] mt-5 pt-8 border-[#a1b562] px-20'>

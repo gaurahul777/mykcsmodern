@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 export function FooterComponent() {
   return (
-    <footer className="bg-zinc-900 md:p-2 md:pl-32 md:pr-10 px-4 h-auto w-screen">
-      <div className="md:container mx-auto text-center h-auto">
+    <footer data-scroll data-scroll-section data-scroll-speed="-0.02" className="bg-zinc-900 py-10 md:px-20  h-auto w-full rounded-t-md ">
+      <div className="md:container mx-auto text-center h-auto  ">
         {/* <div className="my-4 border-t border-[#FF8357] mb-7 md:mb-0"></div> */}
 
         <div className="all-links flex md:flex-row md:flex-nowrap flex-col flex-wrap md:justify-between md:items-start md:mt-9 md:mb-9 justify-center items-center gap-8 md:gap-0">
