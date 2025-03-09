@@ -1,11 +1,13 @@
+import { motion } from "framer-motion";
 import React from "react";
 import { FaArrowUpLong } from "react-icons/fa6";
 // import data from '../costants.json'
 // import { Link, Links, NavLink } from "react-router-dom";
 import { RiFacebookFill, RiInstagramLine, RiLinkedinFill, RiTwitterLine } from "react-icons/ri";
 const LandingPage = () => {
+  
   return (
-    <div className="w-full h-[100vh] bg-zinc-900   pt-1">
+    <div data-scroll data-scroll-speed="-.3" className="w-full h-[100vh] bg-zinc-900   pt-1">
       <div className="textstructure mt-32 px-20 flex flex-col gap-y-1">
         <div className="masker">
           <div className="w-fit flex items-center">
@@ -15,7 +17,11 @@ const LandingPage = () => {
 
         <div className="masker">
           <div className="w-fit flex overflow-hidden">
-            <div className="w-[9vw] h-[5vw]  bg-cover bg-center bg-[url('public/assets/images/kss3.png')] mr-2 mt-1 rounded-md"></div>
+            <motion.div
+             initial={{width:0}} 
+             animate={{width:"9vw"}} 
+             transition={{ease:[0.12, 0, 0.39, 0],duration:1}}
+              className="w-[9vw] h-[5vw]  bg-cover bg-center bg-[url('/assets/images/kss3.png')] mr-2 mt-1 rounded-md"></motion.div>
             <h1 className="uppercase text-7xl founders-grotesk -leading-[1vw] tracking-tighter">Business with <span className="text-[#eb8c62]">kss</span></h1>
           </div>
         </div>
