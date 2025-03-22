@@ -16,7 +16,7 @@ const App = () => {
   
 
   return (
-    <div className='w-full min-h-screen h-auto text-white bg-zinc-900'>
+    <div className='w-full min-h-screen h-auto text-white bg-zinc-900 overflow-hidden'>
       <Navbar/>
       <LandingPage/>
       <Marquee/>

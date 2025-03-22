@@ -12,7 +12,7 @@ export const Services = () => {
     cards[index].start({ y: "100%" });
   };
   return (
-    <div data-scroll data-scroll-section data-scroll-speed=".2" className="w-full py-20 ">
+    <div id='services' data-scroll data-scroll-section data-scroll-speed=".2" className="w-full py-20 ">
       <div className="w-full px-20 border-b-[1px] border-zinc-700 pb-18">
         <h1 className="text-5xl neue-montreal tracking-tight">Our Services</h1>
       </div>

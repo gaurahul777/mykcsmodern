@@ -7,7 +7,7 @@ import { RiFacebookFill, RiInstagramLine, RiLinkedinFill, RiTwitterLine } from "
 const LandingPage = () => {
   
   return (
-    <div data-scroll data-scroll-speed="-.3" className="w-full h-[100vh] bg-zinc-900   pt-1">
+    <div id='home' data-scroll data-scroll-speed="-.3" className="w-full h-[100vh] bg-zinc-900   pt-1">
       <div className="textstructure mt-32 px-20 flex flex-col gap-y-1">
         <div className="masker">
           <div className="w-fit flex items-center">
