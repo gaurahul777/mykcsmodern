@@ -3,43 +3,43 @@ import { Link } from "react-router-dom";
 
 export function FooterComponent() {
   return (
-    <footer data-scroll data-scroll-section data-scroll-speed="-0.02" className="bg-zinc-900 py-10 md:px-20  h-auto w-full rounded-t-md ">
-      <div className="md:container mx-auto text-center h-auto  ">
+    <footer data-scroll data-scroll-section data-scroll-speed="-0.02" className=" bg-zinc-900 md:py-10 py-5 md:px-20  h-[143vh] w-full rounded-t-md ">
+      <div className="md:container mx-auto text-center h-full  ">
         {/* <div className="my-4 border-t border-[#FF8357] mb-7 md:mb-0"></div> */}
 
         <div className="all-links flex md:flex-row md:flex-nowrap flex-col flex-wrap md:justify-between md:items-start md:mt-9 md:mb-9 justify-center items-center gap-8 md:gap-0">
           {/* Top Products Section */}
           <div className="flex flex-col md:gap-3 gap-1">
-            <h2 className="text-2xl font-bold tracking-wider md:tracking-normal">Top Products</h2>
-            <Link to="/product_details" className="text-white text-xl hover:text-black">Tms Erp</Link>
-            <Link to="/driverdost_details" className="text-white text-xl hover:text-black">Driver Dost</Link>
-            <Link to="/" className="text-white text-xl hover:text-black">Upcoming</Link>
+            <h2 className="text-xl md:text-2xl font-bold tracking-wider md:tracking-normal">Top Products</h2>
+            <Link to="/product_details" className="text-white text-lg md:text-xl hover:text-black">Tms Erp</Link>
+            <Link to="/driverdost_details" className="text-white text-lg md:text-xl hover:text-black">Driver Dost</Link>
+            <Link to="/" className="text-white text-lg md:text-xl hover:text-black">Upcoming</Link>
           </div>
 
           {/* Quick Links Section */}
           <div className="flex flex-col md:gap-3 gap-1">
-            <h2 className="text-2xl font-bold tracking-wider md:-tracking-normal">Quick Links</h2>
+            <h2 className="text-xl md:text-2xl font-bold tracking-wider md:-tracking-normal">Quick Links</h2>
             <Link to="/about" className="text-white text-xl hover:text-black">About</Link>
-            <Link to="/services" className="text-white text-xl hover:text-black">Services</Link>
-            <Link to="/contact" className="text-white text-xl hover:text-black">Contact</Link>
-            <Link to="/contact" className="text-white text-xl hover:text-black">Terms & Conditions</Link>
+            <Link to="/services" className="text-white text-lg md:text-xl hover:text-black">Services</Link>
+            <Link to="/contact" className="text-white text-lg md:text-xl hover:text-black">Contact</Link>
+            <Link to="/contact" className="text-white text-lg md:text-xl hover:text-black">Terms & Conditions</Link>
           </div>
 
           {/* Services Section */}
           <div className="flex flex-col md:gap-3 gap-1">
-            <h2 className="text-2xl font-bold tracking-wider md:tracking-normal">Services</h2>
-            <Link to="/services" className="text-white text-xl hover:text-black">Web Development</Link>
-            <Link to="/services" className="text-white text-xl hover:text-black">Mobile Application</Link>
-            <Link to="/services" className="text-white text-xl hover:text-black">CRM</Link>
-            <Link to="/services" className="text-white text-xl hover:text-black">ERP</Link>
+            <h2 className="text-xl md:text-2xl font-bold tracking-wider md:tracking-normal">Services</h2>
+            <Link to="/services" className="text-white text-lg md:text-xl hover:text-black">Web Development</Link>
+            <Link to="/services" className="text-white text-lg md:text-xl hover:text-black">Mobile Application</Link>
+            <Link to="/services" className="text-white text-lg md:text-xl hover:text-black">CRM</Link>
+            <Link to="/services" className="text-white text-lg md:text-xl hover:text-black">ERP</Link>
           </div>
 
           {/* Resources Section */}
           <div className="flex flex-col md:gap-3 gap-1">
-            <h2 className="text-2xl font-bold tracking-wider md:tracking-normal">Resources</h2>
-            <Link to="/contact" className="text-white text-xl hover:text-black">Career</Link>
-            <Link to="/contact" className="text-white text-xl hover:text-black">Clients</Link>
-            <Link to="/contact" className="text-white text-xl hover:text-black">Policy</Link>
+            <h2 className="text-xl md:text-2xl font-bold tracking-wider md:tracking-normal">Resources</h2>
+            <Link to="/contact" className="text-white text-lg md:text-xl hover:text-black">Career</Link>
+            <Link to="/contact" className="text-white text-lg md:text-xl hover:text-black">Clients</Link>
+            <Link to="/contact" className="text-white text-lg md:text-xl hover:text-black">Policy</Link>
           </div>
         </div>
 
