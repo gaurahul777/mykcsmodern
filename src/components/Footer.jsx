@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export function FooterComponent() {
   return (
-    <footer data-scroll data-scroll-section data-scroll-speed="-0.02" className=" bg-zinc-900 md:py-10 py-5 md:px-20  h-[143vh] w-full rounded-t-md ">
+    <footer data-scroll data-scroll-section data-scroll-speed="-0.02" className=" bg-zinc-900 md:py-10 py-5 md:px-20  md:h-[75vh] h-[143vh] w-full rounded-t-md ">
       <div className="md:container mx-auto text-center h-full  ">
         {/* <div className="my-4 border-t border-[#FF8357] mb-7 md:mb-0"></div> */}
 

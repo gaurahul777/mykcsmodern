@@ -14,3 +14,16 @@
 .shooting-star{
     font-family: "Shooting Star";
 }
+
+/* Hide the scrollbar */
+.hide-scrollbar::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Webkit browsers */
+  }
+  
+  /* For Firefox */
+  .hide-scrollbar {
+    scrollbar-width: none; /* Hide scrollbar in Firefox */
+  }
+  
+  /* Optionally, add smooth scrolling */
+  

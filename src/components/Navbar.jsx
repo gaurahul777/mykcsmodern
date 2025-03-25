@@ -1,10 +1,15 @@
 import React, { useState } from "react";
 import { IoMenu } from "react-icons/io5";
 import { IoCloseSharp } from "react-icons/io5";
+import {  useNavigate } from "react-router";
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
+  const navigate = useNavigate();
   const scrollToSection = (id) => {
+    if(id=='contact'){
+      navigate('/contact');
+    }
     setOpenMenu(false)
     const section = document.getElementById(id);
     if (section) {
