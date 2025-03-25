@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { IoMenu } from "react-icons/io5";
 import { IoCloseSharp } from "react-icons/io5";
+import { RiFacebookFill, RiInstagramLine, RiLinkedinFill, RiTwitterLine } from "react-icons/ri";
 import {  useNavigate } from "react-router";
 
 const Navbar = () => {
@@ -36,7 +37,7 @@ const Navbar = () => {
               { name: "Our Product", id: "our-product" },
               { name: "Contact us", id: "contact" },
             ].map((item, index) => (
-              <button key={index} onClick={() => scrollToSection(item.id)} className={`text-nowrap text-lg capitalize font-light hover:text-[#d99175] transition ${index === 4 && "ml-32"}`}>
+              <button key={index} onClick={() => scrollToSection(item.id)} className={`cursor-pointer text-nowrap text-lg capitalize font-light hover:text-[#d99175] transition ${index === 4 && "ml-32"}`}>
                 {item.name}
               </button>
             ))}
@@ -48,7 +49,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      {openMenu && <div className={`transition-all ease-in-out duration-5000 md:hidden w-full h-[80vh] fixed ${openMenu?'top-[5%]':'top-[5%] -left-[150%]'}  bg-black  pt-10 z-[999]`}>
+      {openMenu && <div className={`transition-all ease-in-out duration-5000 md:hidden w-full h-[80vh] fixed ${openMenu?'top-[5%]':'top-[5%] -left-[150%]'}  bg-black  z-[999]`}>
         <div className="links flex  pl-[10px] flex-col gap-6">
             {[
               { name: "Home", id: "home" },
@@ -57,11 +58,19 @@ const Navbar = () => {
               { name: "Our Product", id: "our-product" },
               { name: "Contact us", id: "contact" },
             ].map((item, index) => (
-              <button key={index} onClick={() => scrollToSection(item.id)} className={`text-nowrap text-2xl capitalize font-semibold hover:text-[#d99175] transition pt-5 `}>
+              <button key={index} onClick={() => scrollToSection(item.id)} className={`cursor-pointer text-nowrap text-2xl capitalize font-semibold hover:text-[#d99175] transition pt-4 `}>
                 {item.name}
               </button>
             ))}
           </div>
+
+          <div className="flex mt-15 items-center justify-center gap-x-8 overflow-hidden">
+            <RiFacebookFill size={24} className="text-[#eb8c62]" />
+            <RiInstagramLine size={24} className="text-[#eb8c62]" />
+            <RiTwitterLine size={24} className="text-[#eb8c62]" />
+            <RiLinkedinFill size={24} className="text-[#eb8c62]" />
+          </div>
+          
       </div>}
 
     </div>

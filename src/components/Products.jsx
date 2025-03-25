@@ -9,17 +9,17 @@ const Products = () => {
       <div className=" flex items-center gap-5 overflow-x-scroll hide-scrollbar w-full">
         <div className="cardcontainer md:w-[450px] md:max-w-1/2 w-[300px] h-[30vh] md:h-[50vh] ">
           <div className=" card w-[300px] md:w-full  h-full rounded-xl bg-[#004d43] flex items-center justify-center relative">
-            <div className="absolute bottom-2 border-[1px] border-[#CDEA68] left-2 text-[#CDEA68] rounded-3xl px-3">&copy; 2017</div>
+            <div className="cursor-pointer hover:bg-[#CDEA68] hover:text-[#004d43] absolute bottom-2 border-[1px] border-[#CDEA68] left-2 text-[#CDEA68] rounded-3xl px-3">&copy; 2017</div>
             <div className='rounded-full md:h-[35vh] md:w-[35vh] bg-[url("assets/images/tms1.png")] md:bg-center bg-cover h-[15vh] w-[15vh]'></div>
           </div>
         </div>
         <div className=" cardcontainer flex gap-5 w-[700px] md:w-[600px] md:max-w-1/2 md:h-[50vh] h-[30vh]">
           <div className="card md:w-[300px] md:max-w-full w-[350px] h-full rounded-xl flex justify-center items-center bg-[#192826] relative">
-            <div className="absolute bottom-2 border-[1px] border-[#CDEA68] left-2 text-[#CDEA68] rounded-3xl px-3">&copy; 2017</div>
+            <div className="cursor-pointer hover:bg-[#CDEA68] hover:text-[#004d43] absolute bottom-2 border-[1px] border-[#CDEA68] left-2 text-[#CDEA68] rounded-3xl px-3">&copy; 2017</div>
             <div className="text-2xl font-bold tracking-wide text-[#CDEA68]"> Driver Dost</div>
           </div>
           <div className="card md:w-[300px] md:max-w-full w-[350px] h-full rounded-xl bg-[#004d43] flex items-center justify-center  relative">
-            <div className="absolute bottom-2 border-[1px] border-[#CDEA68] left-2 text-[#CDEA68] rounded-3xl px-3">&copy; 2017</div>
+            <div className="cursor-pointer hover:bg-[#CDEA68] hover:text-[#004d43] absolute bottom-2 border-[1px] border-[#CDEA68] left-2 text-[#CDEA68] rounded-3xl px-3">&copy; 2017</div>
             <div className="text-2xl font-bold tracking-wide text-zinc-100"> Upcoming ...</div>
           </div>
         </div>
