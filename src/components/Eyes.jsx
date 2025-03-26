@@ -17,7 +17,7 @@ useEffect(() => {
 
 
   return (
-    <div className=" eyes w-full h-[40vh] md:h-screen  pt-12 md:pt-0">
+    <div className=" eyes w-full h-[55vh] md:h-screen  pt-12 md:pt-0">
       <div data-scroll data-scroll-speed="-.6" className="relative w-full h-full md:bg-cover bg-center position-center bg-[url('assets/images/eye1.jpg')] ">
       <div className=" -mt-3 md:-mt-0 z-99  text-3xl md:text-5xl text-center md:pt-20 pt-8 neue-montreal text-bold text-[#CDEA68]" >Feel Free To Contact Us</div>
         <div className=' absolute md:top-1/2 top-[29%] left-1/2 -translate-x-[50%] -translate-y-[50% flex items-center justify-center gap-10'>
